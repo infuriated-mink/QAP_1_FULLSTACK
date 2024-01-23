@@ -1,4 +1,5 @@
-// The url module in Node.js is like a helper for working with web addresses. It can take a web address and break it into parts, like the website's name and the specific page you want to visit.
+// The url module in Node.js is like a helper for working with web addresses. It can take a web address and break it into parts, 
+// like the website's name and the specific page you want to visit.
 
 const url = require('url');
 
@@ -16,3 +17,4 @@ console.log('Host:', parsedUrl.host);
 console.log('Path:', parsedUrl.pathname);
 console.log('Query Parameters:', parsedUrl.query);
 console.log('Fragment:', parsedUrl.hash);
+

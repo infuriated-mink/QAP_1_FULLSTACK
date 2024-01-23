@@ -10,7 +10,7 @@ request({
         console.log(cowsay.say({
             text: body,
             // deciding on eyes for the cow.
-            e: 'oO',
+            e: 'O-',
             // deciding on tongue for the cow. 
             T: 'U'
         }));
